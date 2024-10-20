@@ -3,3 +3,10 @@
 
 #include "Charactors/WarriorHeroCharactor.h"
 
+#include "WarriorDebugHelper.h"
+
+void AWarriorHeroCharactor::BeginPlay()
+{
+	Super::BeginPlay();
+	Debug::Print(TEXT("Working"));
+}
